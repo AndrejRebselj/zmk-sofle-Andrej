@@ -68,7 +68,7 @@
             bindings = <
 &kp TILDE  &none     &none       &none    &none   &none     &mmv MOVE_UP     &none   &none           &none         &none            &none  &none
 &none      &none     &kp INS     &none    &none   &none     &mmv MOVE_DOWN   &none   &none           &kp UP_ARROW  &none            &none  &none
-&none      &kp HOME  &kp DELETE  &kp END  &none   &none     &mmv MOVE_LEFT   &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &none  &none
+&trans     &kp HOME  &kp DELETE  &kp END  &none   &none     &mmv MOVE_LEFT   &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &none  &none
 &none      &none     &none       &none    &none   &none     &mmv MOVE_RIGHT  &none   &none           &none         &none            &none  &none
 &trans     &to 0     &to 1       &trans   &trans  &trans    &mkp LCLK        &trans  &trans          &trans        &none            &none
             >;
