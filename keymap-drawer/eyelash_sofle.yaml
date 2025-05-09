@@ -54,8 +54,8 @@ layers:
   - {t: '=', s: +}
   - {t: '-', s: _}
   - $$mdi:volume-off$$
-  - '&SwToL'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: layer1, h: '$$mdi:gesture-tap-hold$$'}
+  - RGB TOG
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -117,9 +117,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
+  - BT CLR ALL
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
